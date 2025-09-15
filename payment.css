@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.nav {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  
+
+ 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+.background-image{
+    
+    background-image: url('download\ \(2\).jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    color: black;
+    float: left;
+}
+.content{
+    background-color: aliceblue;
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+
+
+}
+.details{
+    padding-left: 60px;
+
+}
+.payment{
+    padding-left: 60px;
+}
+.btn{
+     color:white; 
+     background-color: blue;
+      width: 130px;
+       height: 30px;
+        font-size: medium;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        border-radius: 20px; 
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        line-height: 30px;
+        margin: 0 auto;
+        display: block;
+
+}
